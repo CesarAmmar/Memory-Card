@@ -1,0 +1,21 @@
+.container {
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 2px solid #c471ed;
+  cursor: pointer;
+  transition: scale 250ms, border 250ms, border-radius 250ms;
+}
+
+.container:hover {
+  border: 2px solid #006fdf;
+  scale: 1.015;
+  border-radius: 10px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.name {
+  font-size: clamp(14px, 3.5vw, 24px);
+}

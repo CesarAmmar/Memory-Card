@@ -1,0 +1,22 @@
+.container {
+  font-size: 46px;
+  margin: 18px 0 2px 0;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #12c2e9, #c471ed, #f64f59, #12c2e9);
+  animation: background-pan 5s linear infinite;
+  -webkit-background-clip: text;
+  background-size: 200%;
+  white-space: nowrap;
+}
+
+@keyframes background-pan {
+  to {
+    background-position: 110vh;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    font-size: 56px;
+  }
+}
